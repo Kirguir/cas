@@ -1,0 +1,17 @@
+<?php
+
+self::$Database = [
+    'driver' => 'mysql',
+    'host' => 'db',
+    'database' => 'delivery_db',
+    'username' => 'root',
+    'password' => '',
+    'charset' => 'utf8mb4',
+    'collation' => 'utf8mb4_unicode_ci',
+    'prefix' => '',
+];
+
+self::$Logs = [
+    'path' => '../logs/app.log',
+    'level' => 'debug',
+];
